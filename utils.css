@@ -1,0 +1,33 @@
+.main-width {
+    width: 85%;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.head {
+    font-size: 40px;
+}
+
+@media (max-width:480px) {
+    .main-width {
+        width: 90%;
+    }
+}
