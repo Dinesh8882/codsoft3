@@ -132,7 +132,7 @@ const aboutAnimation = () => {
     })
     gsap.from('.about .image ', {
         x: -100,
-        rotate: 300,
+        // rotate: 300,
         opacity: 0,
         scrollTrigger: {
             trigger: "#about-content-right",
@@ -172,7 +172,7 @@ const services = () => {
     let servies_info = document.querySelectorAll('.servies-info .ser-info')
 
     gsap.from('.services .heading', {
-        x: 100,
+        x: 10,
         opacity: 0,
         scrollTrigger: {
             trigger: ".services",
@@ -253,4 +253,4 @@ sticky();
 loadingAnimation();
 aboutAnimation();
 services();
-// projectAnimation()
+projectAnimation()
